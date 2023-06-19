@@ -1,10 +1,10 @@
 "use client"
 
-import Link from "next/link";
 import Header from "./Component/Header";
-import Blog from "./Blog/Blog";
+
 import Footer from "./Component/Footer";
 import AnotherNav from './Component/AnotherNav';
+import HeroPart from './Component/HeroPart'
 
 // Mark the parent component as a client entry
 function Home() {
@@ -12,7 +12,8 @@ function Home() {
     <>
       <Header />
      <AnotherNav />
-     
+    <HeroPart></HeroPart>
+      
       <Footer />
     </>
   );

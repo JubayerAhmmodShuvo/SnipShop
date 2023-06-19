@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Todo = () => {
+const TestiMonials = () => {
   return (
     <div>
-      <h1>Todo</h1>
+      
     </div>
   );
 };
 
-export default Todo;
+export default TestiMonials;
