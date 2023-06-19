@@ -5,13 +5,17 @@ import Header from "./Component/Header";
 import Footer from "./Component/Footer";
 import AnotherNav from './Component/AnotherNav';
 import HeroPart from './Component/HeroPart'
+import BrandSocial from './Component/BrandSocial'
+import Fragrances from './Component/Fragrances'
 
 // Mark the parent component as a client entry
 function Home() {
   return (
     <>
       <Header />
-     <AnotherNav />
+      <AnotherNav />
+      <Fragrances />
+      <BrandSocial />
     <HeroPart></HeroPart>
       
       <Footer />
