@@ -7,6 +7,8 @@ import AnotherNav from './Component/AnotherNav';
 import HeroPart from './Component/HeroPart'
 import BrandSocial from './Component/BrandSocial'
 import Fragrances from './Component/Fragrances'
+import CategoryPage from './Component/CategoryPage'
+import ProductPage from './Component/ProductPage'
 
 // Mark the parent component as a client entry
 function Home() {
@@ -14,6 +16,8 @@ function Home() {
     <>
       <Header />
       <AnotherNav />
+      <ProductPage />
+      <CategoryPage />
       <Fragrances />
       <BrandSocial />
     <HeroPart></HeroPart>

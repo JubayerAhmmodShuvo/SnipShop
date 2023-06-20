@@ -34,7 +34,7 @@ const BrandSocial = () => {
 
       <div className="flex flex-col sm:flex-row justify-center items-center lg:px-24 sm:p-4">
          <div className="w-1/2  ">
-        <h2 className="text-3xl font-bold text-black mb-4">Sell Easily on  Socialmedia</h2>
+        <h2 className="text-3xl font-bold text-black mb-4 font-serif ">Sell Easily on  Socialmedia</h2>
         <p className="text-lg mb-4">Life is hard enough already. Let us make it a little easier.</p>
        <button className="text-black   font-bold py-2 px-4  ">
             See More &rarr;

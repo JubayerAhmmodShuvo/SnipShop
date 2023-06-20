@@ -28,8 +28,8 @@ const Fragrances = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center container">
-        <h2 className="text-3xl text-black font-bold mb-4 text-center">
+      <div className="flex flex-col justify-center items-center container lg:my-20 lg:py-8">
+        <h2 className="text-3xl text-black font-bold mb-4 text-center font-serif ">
           Explore Most Popular Brands
         </h2>
         <button
@@ -52,7 +52,7 @@ const Fragrances = () => {
           &larr; Previous
         </button>
         <button
-          className="text-black font-bold py-2 px-4"
+          className="text-black font-bold py-2 px-4 my-10"
           onClick={handleNextPage}
         >
           Next &rarr;
