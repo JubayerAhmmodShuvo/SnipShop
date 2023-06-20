@@ -58,7 +58,7 @@ const ProductPage = () => {
       <h2 className="text-center text-3xl font-serif font-semibold mb-4 text-black">Shop Our Trending Products</h2>
       <p className="text-center text-black mb-8">Life is hard enough already. Let us make it a little easier.</p>
       <div className="flex justify-center mb-8">
-        <nav className="flex space-x-4 mt-16 lg:mb-32">
+        <nav className="flex flex-col sm:flex-row space-x-4 mt-16 lg:mb-32">
           <button
             onClick={() => handleNavItemClick(1)}
             className={`text-lg font-semibold ${
