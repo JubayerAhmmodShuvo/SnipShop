@@ -8,7 +8,7 @@ const AnotherNav = () => {
   };
 
   return (
-    <nav className="navbar flex justify-center">
+    <nav className="navbar flex justify-center bg-primary ">
       <ul className="navbar-items flex flex-col gap-5 md:flex-row md:justify-between">
         <li
           className={`navbar-item ${activeItem === 0 ? 'active' : ''}`}
