@@ -10,7 +10,7 @@ import Fragrances from './Component/Fragrances'
 import CategoryPage from './Component/CategoryPage'
 import ProductPage from './Component/ProductPage'
 
-// Mark the parent component as a client entry
+
 function Home() {
   return (
     <>
@@ -27,6 +27,6 @@ function Home() {
   );
 }
 
-Home.entryName = 'use client'; // Add this line to mark the parent component
+Home.entryName = 'use client'; 
 
 export default Home;
